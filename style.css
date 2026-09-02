@@ -78,7 +78,7 @@ h1 {
 }
 
 .continuing {
-  margin-top: 6rem;
+  margin-top: 4rem;
   color: var(--muted);
 }
 
@@ -138,7 +138,7 @@ time {
 
 footer {
   max-width: 900px;
-  margin: 8rem auto 0;
+  margin: 4rem auto 0;
   padding: 2rem 4rem 3rem;
   color: var(--muted);
   font-size: 0.85rem;
