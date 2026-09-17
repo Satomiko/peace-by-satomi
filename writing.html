@@ -28,6 +28,8 @@
     <section class="writing">
   <h1>writing</h1>
 
+  <p>number of writings: {{ site.writing.size }}</p>
+
   {% for writing in site.writing %}
     <article>
       <time>{{ writing.first_date }}</time>
