@@ -1,4 +1,7 @@
 # peace-by-satomi
+
+website: https://satomiko.github.io/peace-by-satomi/
+
 this is a quiet record of how i think. 
 it is not a portfolio, a personal brand, or a finished version of myself. 
 it is a place to preserve what i think, question, notice and how my thoughts change over time. 
