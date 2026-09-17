@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: writing
 title: "test"
 first_date: 20260917
 last_updated:
