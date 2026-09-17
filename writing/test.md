@@ -5,6 +5,7 @@ first_date: 20260917
 last_updated:
 categories: [thought]
 tags: [test]
+permalink: /writing/test/
 ---
 
 this is a test article.
