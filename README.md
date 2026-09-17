@@ -1,6 +1,6 @@
 # peace-by-satomi
 
-website: https://satomiko.github.io/peace-by-satomi/
+<a href="https://satomiko.github.io/peace-by-satomi/" target="_blank">website</a>
 
 this is a quiet record of how i think. 
 it is not a portfolio, a personal brand, or a finished version of myself. 
