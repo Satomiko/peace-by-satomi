@@ -100,3 +100,36 @@ git history can preserve how an idea changed over time.
 the goal is not to show that i was always right.
 
 the goal is to leave a record of how i thought.
+
+## writing structure
+
+all writing use the standard article template. 
+
+each article includes: 
+
+- title
+
+- first date
+
+- last updated date
+
+- category, one or more
+
+- tags
+
+- content
+
+the title of the article to be the main question.
+
+the first date does not change. 
+
+the last updated date changes when the thinking is meaningfully updated.
+
+minor spelling or formatting corrections do not need to change the last update date. 
+
+
+
+
+
+
+
