@@ -26,30 +26,25 @@
     <section class="writing">
       <h1>writing</h1>
 
-      <article>
-        <time datetime="20260901">20260901</time>
+{% assign writings = site.writing | sort: "last_updated" | reverse %}
 
-        <div>
-          <h2>
-            <a href="#">first thoughts</a>
-          </h2>
+{% for writing in writings %}
+  <article>
+    <time datetime="{{ writing.first_date }}">
+      {{ writing.first_date }}{% if writing.last_updated %} – {{ writing.last_updated }}{% endif %}
+    </time>
 
-          <p class="description">text text.</p>
-        </div>
-      </article>
-      
-      <article>
-        <time datetime="20260902">20260902</time>
+    <div>
+      <h2>
+        <a href="{{ writing.url }}">{{ writing.title }}</a>
+      </h2>
 
-        <div>
-          <h2>
-            <a href="#">first thoughts</a>
-          </h2>
-
-          <p class="description">text text.</p>
-        </div>
-      </article>
-
+      {% if writing.summary %}
+        <p class="description">{{ writing.summary }}</p>
+      {% endif %}
+    </div>
+  </article>
+{% endfor %}
     </section>
   </main>
 
